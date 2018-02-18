@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios 5 y 6</title>
+  <style>
+    body{
+      margin:0;
+    }
+    header{
+      text-align: center;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    header p{
+      padding: 15px 20px;
+      margin: 0;
+    }
+    .container{
+      width: 35%;
+      float: left;
+      margin: 7%;
+      text-align: center;
+    }
+    @media only screen and (max-width:480px) {
+      header{
+        height: 10%;
+        color: black;
+        background-color: cyan;
+      }
+      header p{
+        padding: 25px 100px;
+      }
+      .container{
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p>Hola soy una página responsiva</p>
+  </header>
+  <section class="general-container">
+    <div class="container">
+      <img src="assets/img/img-01.svg" alt="Left img">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, officiis! Debitis at adipisci neque doloribus totam omnis minima possimus! Nisi quam asperiores illo praesentium, accusantium, aut numquam deserunt eligendi unde?</p>
+    </div>
+    <div class="container">
+      <img src="assets/img/img-01.svg" alt="Right img">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, officiis! Debitis at adipisci neque doloribus totam omnis minima possimus! Nisi quam asperiores illo praesentium, accusantium, aut numquam deserunt eligendi unde?</p>
+    </div>
+</section>
+
+</body>
+</html>
